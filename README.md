@@ -7,12 +7,12 @@
 
 ### Abstract
 
-Video deraining is an important issue for outdoor vision systems and has been investigated extensively. However, designing optimal architectures by the aggregating model formation and data distribution is a challenging task for video deraining. In this paper, we develop a model guided triple-level optimization
+Video deraining is an important issue for outdoor vision systems and has been investigated extensively. However, designing optimal architectures by the aggregating model formation and data distribution is a challenging task for video deraining. In this paper, we develop a model guided triple-level optimization
 framework to deduce network architecture with cooperating
 optimization and auto-searching mechanism, named Triple-level
 Model Inferred Cooperating Searching (TMICS), for dealing with
 various video rain circumstances. In particular, to better explore
-inter-frame information from videos, we first introduce a macroscopic structure searching scheme that searches from Optical
+inter-frame information from videos, we first introduce a macroscopic structure searching scheme that searches from Optical
 Flow Module (OFM) and Temporal Grouping Module (TGM) to
 help restore the latent frame. In addition, existing methods cannot
 preserve details and structure when removing rain streaks.
@@ -23,7 +23,7 @@ model. This structure includes Dominate Network Architecture
 cooperated by introducing an Attention-based Averaging Scheme
 (AAS). To obtain suitable task-specific architectures (i.e., DNA
 and CNA), we apply the differentiable neural architecture search
-from a compact candidate set of task-specific operations to discover desirable rain streaks removal architectures automatically.
+from a compact candidate set of task-specific operations to discover desirable rain streaks removal architectures automatically.
 Extensive experiments on various datasets demonstrate that our
 model shows significant improvements in fidelity and temporal
 consistency over the state-of-the-art works.
