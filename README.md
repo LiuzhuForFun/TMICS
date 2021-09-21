@@ -40,10 +40,7 @@ consistency over the state-of-the-art works.
 - PyTorch 1.2
 
 ## Detailed configuration
-    To Do
-    the model name are
-    ToFlow3 --> TMICS_S
-    TOFlow2 --> TMICS
+
 
 ## Results
 - Video supplementary material: [Baiduyun(code: o09j)](https://pan.baidu.com/s/1SkGwIID1IYo3h2BHU7hElQ)
